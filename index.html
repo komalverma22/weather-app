@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="weather-container">
+        <h1>Weather App</h1>
+        <form>
+            <input class="input" type="text" placeholder="Enter City" id="city">
+
+            <!-- can do it by using input tag as well -->
+            <button class="btn">Get Weather</button>
+        </form>
+        <div id="weather-data">
+            <div class="icon">
+                <img src="http://openweathermap.org/img/wn/01d.png" alt="weather-photo">
+            </div>
+            <div class="temperature">22℃</div>
+            <div class="description">Sunny</div>
+            <div class="details">
+                <div class="wind feels" >Feels like: 23°C</div>
+                <div class="wind humidity">Humidity: 40%</div>
+                <div class="wind speed">Wind speed: 5 m/s</div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
